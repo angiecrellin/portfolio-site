@@ -10,6 +10,10 @@
     background-size:cover;
 }
 
+h1 {
+	padding-top: 5rem;
+}
+
 .panel {
 	margin: 0 auto;
 	max-width: 75%;
@@ -25,11 +29,20 @@
 .col-md-6 {
 	width: 49%;
 	margin: 5px;
-	border: 2px solid #DEB887;
+	border: 2px solid antiquewhite;
 }
 
 
 #contact {
 	margin-top: 2rem;
+	text-align: center;
+	border: 2px solid antiquewhite;
+}
+
+footer p {
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 0;
+	padding-bottom: 10px;
 }
 					
