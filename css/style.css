@@ -20,7 +20,33 @@ h1 {
 
 }
 
+#headshot {
+	margin: 0 auto;
+	display: block;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+}
+
+#messaging {
+	padding-top: 20px;
+	text-align: center;
+}
+
+#languages {
+	text-align: center;
+	font-size: large;
+	list-style: none;
+	display: inline;
+}
+
+
+
 #projects {
+	margin: 0 auto;
 	padding-top: 4rem;
 	text-align: center;
 }
@@ -29,14 +55,21 @@ h1 {
 .col-md-6 {
 	width: 49%;
 	margin: 5px;
-	border: 2px solid antiquewhite;
+	// border: 2px solid antiquewhite;
 }
 
 
 #contact {
 	margin-top: 2rem;
 	text-align: center;
-	border: 2px solid antiquewhite;
+	// border: 2px solid antiquewhite;
+}
+
+#contacts {
+	text-align: center;
+	font-size: large;
+	list-style: none;
+	display: inline;
 }
 
 footer p {
