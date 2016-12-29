@@ -50,7 +50,7 @@ h1 {
 
 #projects {
 	margin: 0 auto;
-	padding-top: 4rem;
+	// padding-top: 10rem;
 	text-align: center;
 }
 
@@ -61,7 +61,7 @@ h1 {
 
 .col-md-6 {
 	width: 49%;
-	margin: 5px;
+	padding-top: 100px;
 	// border: 2px solid antiquewhite;
 }
 
