@@ -58,7 +58,7 @@ h1 {
 .col-md-6 {
 	width: 49%;
 	margin: 5px;
-	border: 2px solid antiquewhite;
+	// border: 2px solid antiquewhite;
 }
 
 
@@ -68,12 +68,18 @@ h1 {
 	// border: 2px solid antiquewhite;
 }
 
-#contacts {
+#contact-info {
 	text-align: center;
-	font-size: large;
-	list-style: none;
-	display: inline;
 }
+
+.contacts {
+	margin: 0 auto;	
+	list-style: none;
+	display: inline-block;
+	padding: 25px;
+}
+
+			
 
 footer p {
 	text-align: center;
