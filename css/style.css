@@ -37,9 +37,13 @@ h1 {
 
 #languages {
 	text-align: center;
-	font-size: large;
+}
+
+.icons {
+	margin: 0 auto;	
 	list-style: none;
-	display: inline;
+	display: inline-block;
+	padding: 25px;
 }
 
 
