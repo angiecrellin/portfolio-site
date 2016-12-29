@@ -54,6 +54,10 @@ h1 {
 	text-align: center;
 }
 
+.description {
+	padding: 25px;
+}
+
 
 .col-md-6 {
 	width: 49%;
