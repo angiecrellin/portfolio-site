@@ -50,7 +50,7 @@ h1 {
 
 #projects {
 	margin: 0 auto;
-	// padding-top: 10rem;
+	padding: 10rem;
 	text-align: center;
 }
 
@@ -61,8 +61,10 @@ h1 {
 
 .col-md-6 {
 	width: 49%;
-	padding-top: 100px;
-	// border: 2px solid antiquewhite;
+	margin: 5px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border: 2px solid antiquewhite;
 }
 
 
@@ -74,6 +76,7 @@ h1 {
 
 #contact-info {
 	text-align: center;
+
 }
 
 .contacts {
@@ -81,6 +84,7 @@ h1 {
 	list-style: none;
 	display: inline-block;
 	padding: 25px;
+
 }
 
 			
