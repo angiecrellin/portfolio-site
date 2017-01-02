@@ -35,6 +35,12 @@ h1 {
 	padding-top: 20px;
 }
 
+#well {
+	
+	color: goldenrod;
+	text-align: center; 
+}
+
 #languages {
 	text-align: center;
 }
