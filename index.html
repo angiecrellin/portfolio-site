@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
 </head>
 
 <body>
@@ -22,7 +23,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <img alt="Brand" src="images/w.png" width="60" height="60px">
+                
+                
+                <a href="#jumbotron"><img alt="Brand" id="brand" src="images/w.png" width="60" height="60px"></a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -34,7 +37,7 @@
                 </ul>
             </div>
     </nav>
-    <div class="jumbotron">
+    <div class="jumbotron" id="jumbotron">
         <h1>Angie Crellin</h1>
         <h3>Developer. Sales Engineer. Dreamer.</h3>
         <p><a href="#contact" class="btn btn-warning btn-lg" role="button">Get In Touch</a></p>
@@ -49,11 +52,12 @@
             </div>
             <div id="messaging">
                 <p>Angie lives in Austin, TX where she enjoys the outdoor activities Central Texas has to offer, the many opportunities to meet and learn from successful entrepreneurs, the thriving tech scene, and of course the tacos - definitely the tacos.</p>
-                <p>Out of college Angie became a successful stockbroker and later worked in mergers and acquisitions. In these roles she learned the value of setting goals, being persistent, and thriving in a competitive, performance based environment. As one of very few women in the office, she quickly adapted, fit in and succeeded in a hectic environment.</p>
-                <p> After her first daughter was born, Angie made the courageous decision to homeschool her children. For the next decade and a half, Angie chose curricula, taught daily lessons and achieved measurable results. Through this important work, Angie learned as much as the kids. She considers the outcome her greatest achievement. </p>
-                <p>Throughout the time she homeschooled her children, Angie worked on various entrepreneurial and sales endeavors, honing her consultative sales techniques. She learned to actively listen and uncover a potential client’s needs and pain points. Angie is skilled at engaging people, building instant rapport and leading them from interest to action. She particularly enjoyed the opportunities she had to work with start-ups and learn from the amazing successes and challenges they brought.</p>
-                <p>It was during one of these projects that Angie became interested in digital marketing and began managing successful Adwords campaigns. She is a Google Certified Adwords Specialist. Once she discovered the power of the internet to engage people, she knew she wanted to learn to code and create important and meaningful user experiences. She threw herself into a coding bootcamp and learned full-stack web development. Her language of choice is Javascript. And while she has the skills to build a backend in Node, she particularly enjoys building web apps with React and Redux.</p>
-                <p>Angie brings a unique skill set and experience to a development team. Her excellent interpersonal skills allow her to effectively communicate with a diverse group of clients and colleagues. Her positive energy is contagious. And her passion for building successful businesses and making a difference is clear. </p>
+                <p>Out of college Angie became a series 7 licensed stockbroker. In this role she learned the value of setting goals, being persistent, and thriving in a competitive, performance based environment. As one of very few women in the office, she quickly adapted and excelled in this environment.</p>
+                <p> After her first daughter was born, Angie made the courageous decision to homeschool her children. For the next decade and a half, she chose curricula, taught daily lessons and achieved measurable results. Angie considers the outcome her greatest achievement. </p>
+                <p>Throughout the time she homeschooled her children, Angie worked on various entrepreneurial and sales endeavors, honing her consultative sales techniques. She learned to actively listen and uncover a potential client’s needs and pain points. Angie is skilled at engaging people, building instant rapport and leading them from interest to action.</p>
+                <p>It was during one of these projects that Angie became interested in digital advertising and began managing successful Adwords campaigns. She is a Google Certified Adwords Specialist.</p>
+                <p>Once she discovered the power of the internet to engage people, Angie knew she wanted to learn to code and create important and meaningful user experiences. She threw herself into a coding bootcamp and learned full-stack web development. Angie's language of choice is Javascript. And while she has the skills to build a backend in Node, she particularly enjoys building web apps with React and Redux.</p>
+                <p>Angie brings a unique skill set and experience to a development team. Her excellent interpersonal skills allow her to effectively communicate with a diverse group of clients and colleagues. Her positive energy is contagious. Angie's passion for building successful businesses - whatever it takes - is refreshing.</p>
                 <div class="well well-lg" id="well">
                     <h4>While enrolled at Thinkful Angie received the Mentor's Choice award for her Allergen Free Recipe App using Node.js/Express, Mongoose/MongoDB, Mocha/Chai, Javascript/jQuery, HTML5 and CSS3.</h4>
                 </div> 
@@ -63,26 +67,31 @@
                     <li class="icons">
                         <div>
                             <img src="./images/html5-icons-891.png" alt="HTML" height="100px" width="100px" id="html">
+                            <h5>HTML5</h5>
                         </div>
                     </li>
                     <li class=icons>
                         <div>
                             <img src="./images/css3.png" alt="CSS" height="100px" width="100px" id="css">
+                            <h5>CSS3</h5>
                         </div>
                     </li>
                     <li class=icons>
                         <div>
                             <img src="./images/js icon.jpg" alt="Javascript" height="100px" width="100px" id="javascript">
+                            <h5>Javascript</h5>
                         </div>
                     </li>
                     <li class=icons>
                         <div>
                             <img src="./images/React.js_logo.svg.png" alt="React" height="100px" width="100px" id="react">
+                            <h5>React</h5>
                         </div>
                     </li>
                     <li class=icons>
                         <div>
                             <img src="./images/Node_icon.png" alt="Node.js" height="100px" width="100px" id="node">
+                            <h5>Node.js</h5>
                         </div>
                     </li>
                 </ul>
@@ -154,7 +163,7 @@
         <p class="col-xs-12">&copy 2016 Angie Crellin</p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
 </body>
 
