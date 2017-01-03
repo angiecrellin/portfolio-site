@@ -35,7 +35,7 @@ h1 {
 
 #messaging {
 	padding-top: 20px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 #well {
@@ -102,7 +102,27 @@ hr {
 	list-style: none;
 	display: inline-block;
 	padding: 25px;
+}
 
+#phone {
+	color:#338d11;
+}
+
+#mobile {
+	color: #02a388;
+}
+#email {
+	color:#4078c0
+}
+
+#twitter {
+	color: #0084b4;
+}
+#linkedin {
+	color: #4875B4;
+}
+#github {
+	color:#6cc644
 }
 
 			
