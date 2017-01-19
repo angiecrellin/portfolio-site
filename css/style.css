@@ -1,5 +1,13 @@
+a:visited {
+	text-decoration: none;
+}
+
 .navbar-brand {
 	margin 15px:
+}
+
+.navbar-brand:hover {
+	background: contrast(greyscale, black, white, [threshold: 43%])
 }
 
 .jumbotron {
@@ -53,7 +61,7 @@ h1 {
 	margin: 0 auto;	
 	list-style: none;
 	display: inline-block;
-	padding: 25px;
+	padding: 40px;
 }
 
 
@@ -123,6 +131,7 @@ hr {
 #email {
 	color:#4078c0
 }
+
 
 #twitter {
 	color: #0084b4;
