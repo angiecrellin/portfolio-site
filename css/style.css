@@ -17,6 +17,8 @@ a:visited {
     height:525px;
     background: url("../images/jumbotron-background.JPG") center;
     background-size: cover;
+    padding: 105px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
@@ -26,6 +28,7 @@ h2 {
 }
 
 h4 {
+	font-size: 1.56em;
 	text-shadow: 2px 2px 2px white;
 
 }
@@ -76,6 +79,9 @@ h4 {
 	margin: 0 auto;
 	padding: 10rem;
 	text-align: center;
+}
+.image-responsive:hover {
+	opacity: 0.8;
 }
 
 button {
