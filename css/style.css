@@ -59,11 +59,12 @@ h4 {
 }
 
 #well {
-	
+	font-size: 21px;
 	color: goldenrod;
 	text-align: center; 
 	font-family: 'Playfair Display';
 }
+
 
 #languages {
 	text-align: center;
