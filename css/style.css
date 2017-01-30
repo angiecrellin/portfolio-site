@@ -96,12 +96,16 @@ button {
 }
 
 
-.col-md-6 {
+.col-lg-6 {
 	width: 49%;
 	margin: 5px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	// border: 2px solid antiquewhite;
+}
+
+.col-md-12 {
+	margin: 0 auto;
 }
 
 .col-sm-12 .col-xs-12 {
